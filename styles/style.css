@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/* nav section */
+nav {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #b6b6a8f1;
+}
+
+nav ul {
+    display: flex;
+
+}
+
+nav li {
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+    ;
+    margin-right: 50px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+
+.nav-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #3A3A3A;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* banner section */
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 50px;
+    background-color: #d6cacae3;
+
+}
+
+.banner-content {
+    width: 40%;
+}
+
+.banner-title {
+    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+
+.banner-description {
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #3A3A3A;
+    padding: 20px 10px 20px 0px;
+}
+
+.btn-primary {
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    padding: 10px 14px;
+    background-color: purple;
+    border: none;
+    border-radius: 1.5rem;
+
+}
+
+.banner-img {
+    background-image: url("../images/Circle\ design.svg");
+}
+
+/* website container */
+.web-section-container {
+    padding: 30px;
+    background-color: #d3d3d3b4;
+}
+
+.web-site-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    background-color: aqua;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* main section */
+.collection-section-container{
+    background-color: #e7e1e1b6;
+}
+
+.all-collection-container {
+    width:80%;
+    margin:auto;
+    padding:50px 0px 50px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:1rem;
+    /* background-color: #29262621; */
+    
+  
+}
+.box{ 
+      
+      /* border:1px solid green; */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding:10px;
+      box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+      border-radius:1rem;
+
+   
+    }
+    .box img{
+          width:75%;        
+          
+    }
+    .all-content{
+           text-align: center;
+           width:50%;
+    }
+     .all-content>h3{
+         font-size:1rem;
+         font-weight:600;
+         color: #18191F;
+         font-family: 'Poppins', sans-serif;
+         padding:0.9rem;
+       }
+
+       .all-content p{
+           padding:0.9rem;
+           color: #787885;
+           font-size:0.8rem;
+           font-weight:500;
+           
+       }
+         /* last section */
+         .last-container{
+            padding-top:3rem;
+             display: flex;
+             justify-content: space-around;
+             align-items: center;
+         }
+       
+         .last-container .last-content{
+                 width:60%;
+         }
+         .last-container img{
+              margin-left:4rem;
+              margin-right:4rem;
+              padding-bottom:1.5rem;
+         }
+         .last-title{
+            color: #0A0826;
+            font-family: Poppins;
+            font-size: 2.5rem;
+            font-weight: 700;
+            
+         }
+         .last-section{
+              background-color: #d3d3d3b4;
+         }
+         .last-description{
+                width:50%;
+                padding:30 0px;
+                margin-bottom:0.5rem;
+         }
+        
+         /* footer section */
+         .footer-container{
+             background-color: #0A0826;
+             color:white;
+             text-align:center;
+             padding:50px;
+         }
+         .footer-title{
+               font-size:1.5rem;
+               font-weight: 700;
+               
+         }
+         .footer-container small{
+              font-size:0.5rem;
+         }
